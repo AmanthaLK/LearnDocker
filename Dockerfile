@@ -1,3 +1,5 @@
-FROM httpd:2.4
+# Use the official Ubuntu image
+FROM ubuntu:24.04
 
-EXPOSE 80
+# Run a command when the container starts
+CMD ["echo", "Hello, World from Ubuntu Docker!"]
